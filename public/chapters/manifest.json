@@ -1,0 +1,267 @@
+{
+  "title": "Ataraxia",
+  "subtitle": "Forging the Sovereign Self",
+  "author": "PYTHAI",
+  "chapters": [
+    {
+      "id": 1,
+      "title": "Chapter 1: Introduction",
+      "file": "01-introduction.md"
+    },
+    {
+      "id": 2,
+      "title": "Chapter 2: Still in the Center - Ataraxia and the Path to Clarity",
+      "file": "02-still-in-the-center---ataraxia-and-the-path-to-cla.md"
+    },
+    {
+      "id": 3,
+      "title": "Chapter 3: Default State of Flow - Where Tranquility Resides",
+      "file": "03-default-state-of-flow---where-tranquility-resides.md"
+    },
+    {
+      "id": 4,
+      "title": "Chapter 4: Awakened Discipline - A Guide to Maintaining Inner Poise",
+      "file": "04-awakened-discipline---a-guide-to-maintaining-inner.md"
+    },
+    {
+      "id": 5,
+      "title": "Chapter 5: Tranquility in Motion - Martial Path",
+      "file": "05-tranquility-in-motion---martial-path.md"
+    },
+    {
+      "id": 6,
+      "title": "Chapter 6: Subtle Dance - Micro-movements and the First Steps from Stillness",
+      "file": "06-subtle-dance---micro-movements-and-the-first-steps.md"
+    },
+    {
+      "id": 7,
+      "title": "Chapter 7: Yoga of Existence - Every Breath a Martial Art",
+      "file": "07-yoga-of-existence---every-breath-a-martial-art.md"
+    },
+    {
+      "id": 8,
+      "title": "Chapter 8: Returning to the Center - Maintaining, Enhancing, and Optimizing Ataraxia",
+      "file": "08-returning-to-the-center---maintaining-enhancing-an.md"
+    },
+    {
+      "id": 9,
+      "title": "Chapter 9: Eye of the Storm - Observing Chaos, Not Absorbing It",
+      "file": "09-eye-of-the-storm---observing-chaos-not-absorbing-i.md"
+    },
+    {
+      "id": 10,
+      "title": "Chapter 10: Psychic Dojo - Using External Imbalance to Forge Internal Strength",
+      "file": "10-psychic-dojo---using-external-imbalance-to-forge-i.md"
+    },
+    {
+      "id": 11,
+      "title": "Chapter 11: Sanctuary of the Self - Foundation of Authentic Leadership",
+      "file": "11-sanctuary-of-the-self---foundation-of-authentic-le.md"
+    },
+    {
+      "id": 12,
+      "title": "Chapter 12: Persona and Presence - Navigating the Social Hierarchy",
+      "file": "12-persona-and-presence---navigating-the-social-hiera.md"
+    },
+    {
+      "id": 13,
+      "title": "Chapter 13: Sovereign Self - Owning the Inner Estate",
+      "file": "13-sovereign-self---owning-the-inner-estate.md"
+    },
+    {
+      "id": 14,
+      "title": "Chapter 14: Kintsugi of the Soul - Mastery as Perfectly Broken",
+      "file": "14-kintsugi-of-the-soul---mastery-as-perfectly-broken.md"
+    },
+    {
+      "id": 15,
+      "title": "Chapter 15: Ataraxia - A Summary",
+      "file": "15-ataraxia---a-summary.md"
+    },
+    {
+      "id": 16,
+      "title": "Chapter 16: The Surgeon's Calm - Indifference as the Boundary of a Conscious Self",
+      "file": "16-the-surgeons-calm---indifference-as-the-boundary-o.md"
+    },
+    {
+      "id": 17,
+      "title": "Chapter 17: Desire: Engine of Wanting",
+      "file": "17-desire-engine-of-wanting.md"
+    },
+    {
+      "id": 18,
+      "title": "Chapter 18: The Resonance of Joy: Pleasure as a State of Being",
+      "file": "18-the-resonance-of-joy-pleasure-as-a-state-of-being.md"
+    },
+    {
+      "id": 19,
+      "title": "Chapter 19: Necessary Evil - Embracing Anarchy as the Engine of Growth",
+      "file": "19-necessary-evil---embracing-anarchy-as-the-engine-o.md"
+    },
+    {
+      "id": 20,
+      "title": "Chapter 20: The Alchemy of Self-Love - Forgiveness, Acceptance, and Surrender",
+      "file": "20-the-alchemy-of-self-love---forgiveness-acceptance-.md"
+    },
+    {
+      "id": 21,
+      "title": "Chapter 21: Addendum - The Practice of Mindfulness",
+      "file": "21-addendum---the-practice-of-mindfulness.md"
+    },
+    {
+      "id": 22,
+      "title": "Chapter 22: The Architect's Hand - Discipline as the Ultimate Expression of Self-Love",
+      "file": "22-the-architects-hand---discipline-as-the-ultimate-e.md"
+    },
+    {
+      "id": 23,
+      "title": "Chapter 23: Ataraxia and the Jungian Path of Individuation",
+      "file": "23-ataraxia-and-the-jungian-path-of-individuation.md"
+    },
+    {
+      "id": 24,
+      "title": "Chapter 24: The Discipline of the Awakened One",
+      "file": "24-the-discipline-of-the-awakened-one.md"
+    },
+    {
+      "id": 25,
+      "title": "Chapter 25: Tranquility in Motion",
+      "file": "25-tranquility-in-motion.md"
+    },
+    {
+      "id": 26,
+      "title": "Chapter 26: The Still Point and the Unfolding Spiral",
+      "file": "26-the-still-point-and-the-unfolding-spiral.md"
+    },
+    {
+      "id": 27,
+      "title": "Chapter 27: Subtlety as the Foundation of Mastery",
+      "file": "27-subtlety-as-the-foundation-of-mastery.md"
+    },
+    {
+      "id": 28,
+      "title": "Chapter 28: The Spiraling Path: Integrating Internal and External Arts",
+      "file": "28-the-spiraling-path-integrating-internal-and-extern.md"
+    },
+    {
+      "id": 29,
+      "title": "Chapter 29: The Unscattered Mind - Clarity in the Anarchy",
+      "file": "29-the-unscattered-mind---clarity-in-the-anarchy.md"
+    },
+    {
+      "id": 30,
+      "title": "Chapter 30: The Final Kata: Acceptance and the Bridge to Surrender",
+      "file": "30-the-final-kata-acceptance-and-the-bridge-to-surren.md"
+    },
+    {
+      "id": 31,
+      "title": "Chapter 31: The Lever of Wills - Influence, Manipulation, and the Sovereign Mind",
+      "file": "31-the-lever-of-wills---influence-manipulation-and-th.md"
+    },
+    {
+      "id": 32,
+      "title": "Chapter 32: The Oracle's Gaze - Thinking in Consequences",
+      "file": "32-the-oracles-gaze---thinking-in-consequences.md"
+    },
+    {
+      "id": 33,
+      "title": "Chapter 33: The Armor of Silence - The Unspoken Art of Command",
+      "file": "33-the-armor-of-silence---the-unspoken-art-of-command.md"
+    },
+    {
+      "id": 34,
+      "title": "Chapter 34: The Gravity of Absence - The Physics of Reverence",
+      "file": "34-the-gravity-of-absence---the-physics-of-reverence.md"
+    },
+    {
+      "id": 35,
+      "title": "Chapter 35: The Kata of Power and Surrender - Ataraxia in the Controlled Storm",
+      "file": "35-the-kata-of-power-and-surrender---ataraxia-in-the-.md"
+    },
+    {
+      "id": 36,
+      "title": "Chapter 36: The Razor's Edge - Breath, Sensation, and the Yoga of Extremis",
+      "file": "36-the-razors-edge---breath-sensation-and-the-yoga-of.md"
+    },
+    {
+      "id": 37,
+      "title": "Chapter 37: The Sacred Dance - Desire, Polarity, and the Integrated Self",
+      "file": "37-the-sacred-dance---desire-polarity-and-the-integra.md"
+    },
+    {
+      "id": 38,
+      "title": "Chapter 38: Composure - The Stillness That Commands",
+      "file": "38-composure---the-stillness-that-commands.md"
+    },
+    {
+      "id": 39,
+      "title": "Chapter 39: Gratitude - The Alchemical Solvent",
+      "file": "39-gratitude---the-alchemical-solvent.md"
+    },
+    {
+      "id": 40,
+      "title": "Chapter 40: The Un-Kata of Jealousy - Defeating an Opponent Who Isn't There",
+      "file": "40-the-un-kata-of-jealousy---defeating-an-opponent-wh.md"
+    },
+    {
+      "id": 41,
+      "title": "Chapter 41: Self Discipline and the Right Hand of Discipline",
+      "file": "41-self-discipline-and-the-right-hand-of-discipline.md"
+    },
+    {
+      "id": 42,
+      "title": "Chapter 42: The Alchemy of Solitude - From Loneliness to Authenticity",
+      "file": "42-the-alchemy-of-solitude---from-loneliness-to-authe.md"
+    },
+    {
+      "id": 43,
+      "title": "Chapter 43: The Grandmaster’s Board - From Manipulation to Strategic Sovereignty",
+      "file": "43-the-grandmasters-board---from-manipulation-to-stra.md"
+    },
+    {
+      "id": 44,
+      "title": "Chapter 44: The Leverage of the Edge - Transmuting Pain into Infinite Pleasure",
+      "file": "44-the-leverage-of-the-edge---transmuting-pain-into-i.md"
+    },
+    {
+      "id": 45,
+      "title": "Chapter 45: Subspace and the Sovereign Self - The Architecture of Surrender",
+      "file": "45-subspace-and-the-sovereign-self---the-architecture.md"
+    },
+    {
+      "id": 46,
+      "title": "Chapter 46: The Uncanny Valley of Transformation - When the Familiar Becomes Strange",
+      "file": "46-the-uncanny-valley-of-transformation---when-the-fa.md"
+    },
+    {
+      "id": 47,
+      "title": "Chapter 47: The Dark Night of the Soul - The Hospice of the Ego",
+      "file": "47-the-dark-night-of-the-soul---the-hospice-of-the-eg.md"
+    },
+    {
+      "id": 48,
+      "title": "Chapter 48: The Unified Theory of Ataraxia - A Comprehensive Summary",
+      "file": "48-the-unified-theory-of-ataraxia---a-comprehensive-s.md"
+    },
+    {
+      "id": 49,
+      "title": "Chapter 49: Focus from Disciplined Calm - The Untouchable State",
+      "file": "49-focus-from-disciplined-calm---the-untouchable-stat.md"
+    },
+    {
+      "id": 50,
+      "title": "Chapter 50: Hacking the Flow State - The Code of the Sovereign Mind",
+      "file": "50-hacking-the-flow-state---the-code-of-the-sovereign.md"
+    },
+    {
+      "id": 51,
+      "title": "Chapter 51: The Unwavering Code - Musashi, Guioji, and the Engineering of Eudaimonia",
+      "file": "51-the-unwavering-code---musashi-guioji-and-the-engin.md"
+    },
+    {
+      "id": 52,
+      "title": "Chapter 52: The Architecture of Flourishing - Eudaimonia in the Age of Artificial Intelligence",
+      "file": "52-the-architecture-of-flourishing---eudaimonia-in-th.md"
+    }
+  ]
+}

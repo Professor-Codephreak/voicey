@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ataraxia Mix Studio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            /* Cyberpunk 2040 Color Palette */
+            --bitcoin-orange: #F7931A;
+            --downglow-blue: #00D4FF;
+            --downglow-cyan: #00FFE5;
+            --corporate-dark: #0A0E1A;
+            --panel-bg: #121820;
+            --panel-border: #1E2836;
+            --text-primary: #E0E6ED;
+            --text-secondary: #8B95A5;
+            --sharp-edge: #2A3441;
+            --success-glow: #F7931A;
+            --warning-amber: #FFA500;
+            --critical-red: #FF3B30;
+            --grid-line: #1A2332;
+        }
+
+        body {
+            background: linear-gradient(135deg, var(--corporate-dark) 0%, #0D1117 100%);
+            color: var(--text-primary);
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        /* Cyberpunk grid background */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image:
+                linear-gradient(var(--grid-line) 1px, transparent 1px),
+                linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
+            background-size: 50px 50px;
+            opacity: 0.3;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        /* Sharp corner accent */
+        body::after {
+            content: '';
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 200px;
+            height: 200px;
+            background: linear-gradient(135deg, transparent 0%, var(--downglow-blue) 100%);
+            opacity: 0.05;
+            clip-path: polygon(100% 0, 100% 100%, 0 0);
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        #root {
+            position: relative;
+            z-index: 1;
+            min-height: 100vh;
+        }
+
+        .header {
+            background: linear-gradient(180deg, var(--panel-bg) 0%, var(--corporate-dark) 100%);
+            border-bottom: 1px solid var(--sharp-edge);
+            padding: 16px 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-title {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 18px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+
+        .header-icon {
+            width: 24px;
+            height: 24px;
+            color: var(--bitcoin-orange);
+            filter: drop-shadow(0 0 8px rgba(247, 147, 26, 0.4));
+        }
+
+        .header-accent {
+            color: var(--bitcoin-orange);
+            text-shadow: 0 0 10px rgba(247, 147, 26, 0.3);
+        }
+
+        .content {
+            padding: 24px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .panel {
+            background: var(--panel-bg);
+            border: 1px solid var(--panel-border);
+            border-radius: 2px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Sharp corner accent for panels */
+        .panel::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, transparent 0%, var(--bitcoin-orange) 100%);
+            opacity: 0.08;
+            clip-path: polygon(100% 0, 100% 100%, 0 0);
+        }
+
+        .panel-title {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .status-indicator {
+            width: 8px;
+            height: 8px;
+            border-radius: 1px;
+            background: var(--bitcoin-orange);
+            box-shadow: 0 0 12px var(--bitcoin-orange);
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        .loading {
+            text-align: center;
+            padding: 60px;
+            color: var(--text-secondary);
+        }
+
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 3px solid var(--sharp-edge);
+            border-top-color: var(--bitcoin-orange);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 16px;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .button {
+            background: linear-gradient(135deg, var(--panel-bg) 0%, var(--sharp-edge) 100%);
+            border: 1px solid var(--sharp-edge);
+            color: var(--text-primary);
+            padding: 8px 16px;
+            border-radius: 2px;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            cursor: pointer;
+            transition: all 0.2s;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .button::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(247, 147, 26, 0.2), transparent);
+            transition: left 0.5s;
+        }
+
+        .button:hover::before {
+            left: 100%;
+        }
+
+        .button:hover {
+            border-color: var(--bitcoin-orange);
+            box-shadow: 0 0 16px rgba(247, 147, 26, 0.3);
+        }
+
+        .button-primary {
+            background: linear-gradient(135deg, var(--bitcoin-orange) 0%, #E87B0F 100%);
+            border-color: var(--bitcoin-orange);
+            box-shadow: 0 4px 16px rgba(247, 147, 26, 0.3);
+        }
+
+        .button-primary:hover {
+            box-shadow: 0 6px 24px rgba(247, 147, 26, 0.5);
+            transform: translateY(-1px);
+        }
+    </style>
+</head>
+<body>
+    <div id="root">
+        <header class="header">
+            <div class="header-title">
+                <svg class="header-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3"></path>
+                </svg>
+                <span>ATARAXIA <span class="header-accent">MIX STUDIO</span></span>
+            </div>
+            <div class="status-indicator"></div>
+        </header>
+
+        <div class="content">
+            <div class="panel">
+                <div class="panel-title">
+                    <span>SYSTEM STATUS</span>
+                </div>
+                <div class="loading">
+                    <div class="spinner"></div>
+                    <p>Initializing Mix Controls...</p>
+                    <p style="margin-top: 8px; font-size: 12px;">Connecting to main application</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Communication with parent window
+        window.addEventListener('message', (event) => {
+            if (event.data.type === 'INIT_MIX_WINDOW') {
+                console.log('Mix window initialized with data:', event.data);
+                // TODO: Render React component here
+            }
+        });
+
+        // Notify parent that window is ready
+        if (window.opener) {
+            window.opener.postMessage({ type: 'MIX_WINDOW_READY' }, '*');
+        }
+
+        // Handle window close
+        window.addEventListener('beforeunload', () => {
+            if (window.opener) {
+                window.opener.postMessage({ type: 'MIX_WINDOW_CLOSED' }, '*');
+            }
+        });
+    </script>
+</body>
+</html>
