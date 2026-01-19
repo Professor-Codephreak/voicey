@@ -94,8 +94,8 @@ Ataraxia Audiobook Studio is a comprehensive web-based platform for creating pro
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/ataraxia-forging.git
-   cd ataraxia-forging
+   git clone https://github.com/Professor-Codephreak/voicey.git
+   cd voicey
    ```
 
 2. **Install Dependencies**
