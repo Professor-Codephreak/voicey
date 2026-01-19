@@ -411,9 +411,9 @@ We welcome contributions from the community! Whether you're fixing bugs, improvi
 
 1. **Fork the Repository**
    ```bash
-   git clone https://github.com/yourusername/ataraxia-forging.git
-   cd ataraxia-forging
-   git checkout -b feature/your-feature-name
+   git clone https://github.com/Professor-Codephreak/voicey.git
+   cd voicey
+   git checkout -b feature/your-feature-name/
    ```
 
 2. **Make Your Changes**
